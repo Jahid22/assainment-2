@@ -2,14 +2,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
 /* common utilities*/
+
+* {
+    box-sizing: border-box;
+  }
 body{
     font-family: 'Poppins', sans-serif;
+
 }
+
 /* -------
    title
 =========== */
 .title{
     display: flex;
+    justify-content: center;
 }
 .title-blog{
     width: 582px;
@@ -22,7 +29,7 @@ body{
 .title-button{
     width: 196px;
     height: 44px;
-    Padding:10px, 24px, 10px, 24px;
+    
     background: #E02C6D;
     border-radius: 41px;
     color:#FFFFFF;
@@ -35,4 +42,30 @@ body{
 .title-img{
     width: 440px;
     margin-left: 133px;
+}
+/* ======== influencer rpoduct ============= */
+.product{
+    
+    width: 330px;
+    
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3px;
+    }
+.product-banner img{
+    width: 300px;
+    padding: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+
+    
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.emty{
+    color: #AEAEAE;
+}
+.product-ditail{
+padding: 5px;
 }
