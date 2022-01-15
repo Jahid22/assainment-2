@@ -85,3 +85,41 @@ body{
 .product-ditail{
 padding: 5px;
 }
+/* -------------
+footer
+---------- */
+.footer{
+    text-align: center;
+   
+    background: #0d094b;
+    color: #FFFFFF;
+    
+}
+.footer-info{
+padding-top: 20px;
+}
+
+
+ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+   
+}
+  ul li{
+
+      list-style: none;
+      border:1px solid #130c6b;
+      border-radius: 50%;
+      padding: 2px;
+      margin:0%
+      
+      
+    
+     
+    }
+    li i{
+       
+       margin: 5px;
+    }
