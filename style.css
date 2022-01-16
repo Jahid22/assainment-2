@@ -10,7 +10,7 @@ body{
 
 }
 /* ---------
-Header
+Navbar
 ---------- */
 .nav-list{
 display: flex;
@@ -30,7 +30,7 @@ align-items: center;
     margin-right: auto;
 }
 
-/* Header--End */
+/* Navbar */
 .main{
     display: flex;
     flex-direction: column;
@@ -43,21 +43,19 @@ align-items: center;
     border-radius: 5px;
 }
 /* -------
-   title
+   Header section
 =========== */
-.section-title{
-    text-align: center;
-    padding: 20px;
-}
-.title{
+
+.header{
     display: flex;
     justify-content: center;
 }
+
 .title-blog{
     width: 582px;
     
 }
- .title-heading{
+ .heading{
      font-size: 52px;
 
 }
@@ -81,10 +79,6 @@ align-items: center;
 /* -------------
       logos
 ============== */
-hr{
-    opacity: 0.2;
-    
-}
 .logos{
     display: flex;
     justify-content: center;
@@ -107,6 +101,10 @@ hr{
     text-align: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 3px;
+    }
+    .section-title{
+        text-align: center;
+        padding: 20px;
     }
 .product-banner img{
     width: 300px;
@@ -193,4 +191,10 @@ padding-top: 10px;
       padding: 2px;
       margin: 20px;
       }
-    
+    /* ============
+    -----media qurey-----
+    ============== */
+    /* mobile */
+    @media screen and ( max-width:688px){
+        
+    }
