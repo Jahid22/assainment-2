@@ -78,6 +78,20 @@ align-items: center;
     width: 440px;
     margin-left: 133px;
 }
+/* -------------
+      logos
+============== */
+hr{
+    opacity: 0.2;
+    
+}
+.logos{
+    display: flex;
+    justify-content: center;
+}
+.logo-item{
+    margin-right: 20px;
+}
 /* ======== influencer rpoduct ============= */
 .products{
     display: grid;
