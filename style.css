@@ -9,6 +9,9 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
+.main{
+   
+}
 /* ---------
 Navbar
 ---------- */
@@ -49,10 +52,13 @@ align-items: center;
 .header{
     display: flex;
     justify-content: center;
-}
 
+}
 .title-blog{
-    width: 582px;
+    padding: 20px;
+}
+.blog{
+   width: 400px;
     
 }
  .heading{
@@ -73,8 +79,11 @@ align-items: center;
     margin-left: 8px;
 }
 .title-img{
-    width: 440px;
+    width: 460px;
     margin-left: 133px;
+}
+hr{
+    opacity: 0.2;
 }
 /* -------------
       logos
@@ -195,6 +204,27 @@ padding-top: 10px;
     -----media qurey-----
     ============== */
     /* mobile */
-    @media screen and ( max-width:688px){
-        
+    @media only screen and ( max-width:688px){
+        .header{
+    
+            background-color: blueviolet;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            
+            
+            width: 100%;
+            }
+        .title-blog{
+            display: flex;
+            flex-wrap:wrap;
+            flex-direction: column;
+            margin-left: 60px;
+
+            }
+           
+               
+            }
+           .heading{
+               font-size: 30px;
+           }
     }
