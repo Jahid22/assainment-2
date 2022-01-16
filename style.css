@@ -12,33 +12,30 @@ body{
 /* ---------
 Header
 ---------- */
-.header{
-    display: flex;
-    
-    padding: 30px;
+.nav-list{
+display: flex;
+justify-content: flex-end;
+align-items: center;
 }
 
-.nav{
-    float: right;
-}
-.nav-ul{
-    display: flex;
-}
-.nav-ul li{
+.nav-items{
     list-style: none;
+    margin-right: 10px;
+}
+.nav-items a{
+    text-decoration: none;
     color: black;
 }
-.nav-name{
-    text-decoration: none;
-    padding: 10px;
-    
+.nav-items:first-child{
+    margin-right: auto;
 }
+
 /* Header--End */
 .main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin:100px;
+    
 }
 .container{
     padding: 30px;
@@ -167,26 +164,19 @@ padding-top: 10px;
 }
 
 
-.footer-ul{
-    display: flex;
+.footer-list{
+    display:flex;
     justify-content: center;
-    margin: 0;
-    padding: 0;
-   
+    align-items: center;
+
+
 }
-  .footer-ul>{
+  .footer-item{
 
       list-style: none;
       border:1px solid #130c6b;
       border-radius: 50%;
       padding: 2px;
-      margin:0%
-      
-      
+      margin: 20px;
+      }
     
-     
-    }
-    li i{
-       
-       margin: 5px;
-    }
