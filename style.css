@@ -1,7 +1,8 @@
+
 /* ---------fonts-------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-/* common utilities*/
+
 
 
 body{
@@ -9,9 +10,7 @@ body{
     font-family: 'Poppins', sans-serif;
 
 }
-.main{
-   
-}
+
 /* ---------
 Navbar
 ---------- */
@@ -100,16 +99,19 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 
-    grid-column-gap:20px;
-    grid-row-gap:20px;
+    grid-column-gap:15px;
+    grid-row-gap:15px;
+    
+    
+    
 }
 .product{
     
-    width: 460px;
-    
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 3px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      border-radius: 3px;
+      text-align: center;
+      margin: 50px;
+      
     }
     .section-title{
         text-align: center;
@@ -205,6 +207,10 @@ padding-top: 10px;
     ============== */
     /* mobile */
     @media only screen and ( max-width:688px){
+
+        .container{
+            width: 100%;
+        }
         .header, .feature, .products{
     
     
@@ -223,21 +229,41 @@ padding-top: 10px;
             }
            
                
-            }
+            
            .heading{
                font-size: 30px;
            }
            .product{
                display: flex;
                flex-direction: column;
+               width: 100%;
            }
            
     }
     /* ----- tablet------ */
-    @media only screen and (min-width: 688px) and
-    (max-width: 992px) {
-        .header {
-            background-color: coral;
+    @media only screen and (min-width: 688px) and (max-width:992px) {
+        .container{
+            width: 100%;
+            justify-content: center;
+        
+        
+        }
+        
+        .products{
+            display: grid;
+            grid-template-columns: repeat (2, 1fr);
+            
+            width: 100%;
+            
+            
+            
+        }
+        .product{
+            display: flex;
+            flex-direction: column;
+            
+            width: 100%;
+        
         }
         
     }
